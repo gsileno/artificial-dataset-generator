@@ -2,9 +2,9 @@
 
 In machine learning and other data-oriented practices, most experiments start from feature data observed on real phenomena. For research experimentation, however, it is still valuable to take a more general engineering approach, according to which a system/method is first tested against ideal/paradoxical cases to test both its basic validity and its robustness. This simple script facilitates generating artificial data from ground truths based on symbolic specifications (namely in ASP, a logic programming language with a Prolog-like syntax). A possible use of this generator is for instance to facilitate experimentation for hybrid reasoning tasks (symbolic/subsymbolic).
 
-## Files
+## Use
 
-- `generator.py` contains the main class and an example of use.
+- `generator.py` contains the main class and an example of use in the `main` function.
 
 This is the output obtained by running `python generator.py`
 
